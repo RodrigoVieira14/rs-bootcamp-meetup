@@ -82,3 +82,25 @@
 // criando uma migration
   - yarn sequelize migration:create --name=create-users
   - configurar a migrations
+  - subir as migrations
+  - yarn sequelize db:migrate
+
+// criando as models
+  - importar o sequelize nas models
+  - inicialize a class
+  - acrescentar as colunas que serão preenchidas pelo usuario. Tirar as colunas primarykey..
+  - funcao super.init
+    - primeiro parametro: os campos da tabela
+    - segundo:
+
+// criar a conexão com o banco de dados
+  -- database/index.js
+  - tem que ser importado os models para manipular o bd
+  - percorrer o array de models passsando a conexão
+  - tem que importar o database/index.js no app.js
+
+// criando o controller
+  - importar as model
+  - fazer o metodo e chamar o controler nas rotas
+
+
